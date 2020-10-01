@@ -27,7 +27,10 @@
     "android": {
       "package": "com.henistd.2048revision",
       "versionCode": 1,
-      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6128669615016913~5805706932"
+      }
     }
   }
 }
