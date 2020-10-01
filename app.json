@@ -20,12 +20,12 @@
       "favicon": "./assets/favicon.png"
     },
     "ios": {
-      "bundleIdentifier": "com.henistd.2048revision",
+      "bundleIdentifier": "com.henistd.revision2048",
       "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.henistd.2048revision",
+      "package": "com.henistd.revision2048",
       "versionCode": 1,
       "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"],
       "config": {
