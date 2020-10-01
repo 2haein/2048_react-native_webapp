@@ -2,7 +2,7 @@
   "expo": {
     "name": "2048_react-native_webapp",
     "slug": "2048_revision",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -26,8 +26,7 @@
     },
     "android": {
       "package": "com.henistd.revision2048",
-      "versionCode": 1,
-      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"],
+      "versionCode": 2,
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-6128669615016913~5805706932"
       }
