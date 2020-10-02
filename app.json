@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "2048 Revision",
-    "slug": "2048 Revision",
+    "slug": "2048_Revision",
     "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
