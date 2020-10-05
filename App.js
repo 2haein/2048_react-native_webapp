@@ -9,21 +9,21 @@ import {
 } from 'expo-ads-admob';
 
 export default class App extends React.Component {
-  adFunction = () => {
-    <AdMobBanner
-    bannerSize="fullBanner"
-    // adUnitID="ca-app-pub-3940256099942544/6300978111" // Test ID, Replace with your-admob-unit-id
-    adUnitID="ca-app-pub-6128669615016913/8187315932"
-    servePersonalizedAds // true or false
-    onDidFailToReceiveAdWithError={this.bannerError} />
+  adFunction = async () => {
+    // await AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/1033173712'); // Test ID, Replace with your-admob-unit-id
+    await AdMobInterstitial.setAdUnitID('ca-app-pub-6128669615016913/4284402393');
+    await AdMobInterstitial.requestAdAsync({ servePersonalizedAds: true });
+    await AdMobInterstitial.showAdAsync();
   }
-  
-  componentDidMount(){
+
+
+
+  componentDidMount () {
     this.adFunction();
   }
 
 
-  render() {
+  render () {
     return (
       <WebView
         source={{

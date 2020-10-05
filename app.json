@@ -2,7 +2,7 @@
   "expo": {
     "name": "2048 Revision",
     "slug": "2048_Revision",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "web": {
       "favicon": "./assets/favicon.png"
     },
@@ -26,7 +24,7 @@
     },
     "android": {
       "package": "com.henistd.revision2048",
-      "versionCode": 3,
+      "versionCode": 4,
       "permissions": [],
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-6128669615016913~5805706932"
